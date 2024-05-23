@@ -4,6 +4,7 @@ import org.junit.jupiter.api.*;
 import org.opentest4j.TestAbortedException;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
 
 @DisplayName("Test Calculator class")
 public class CalculatorTest {
@@ -70,5 +71,12 @@ public class CalculatorTest {
         if(!"DEV".equals(profile)) {
             throw new TestAbortedException();
         }
+    }
+
+    @Test
+    public void testAssumption() {
+        assumeTrue("DEV".equals(System.getenv("PROFILE")));
+
+        // dev unit test
     }
 }
