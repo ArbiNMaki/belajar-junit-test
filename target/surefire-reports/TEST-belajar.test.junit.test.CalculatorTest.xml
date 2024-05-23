@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.CalculatorTest" time="0.18" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.CalculatorTest" time="0.169" tests="6" errors="0" skipped="2" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\arbid\AppData\Local\Temp\surefire3044953320946348836\surefirebooter15902155495038440200.jar C:\Users\arbid\AppData\Local\Temp\surefire3044953320946348836 2024-05-22T23-58-35_803-jvmRun1 surefire5369461344091831399tmp surefire_05292474940804208948tmp"/>
+    <property name="sun.java.command" value="C:\Users\arbid\AppData\Local\Temp\surefire13588991328710970590\surefirebooter17528593621912390541.jar C:\Users\arbid\AppData\Local\Temp\surefire13588991328710970590 2024-05-23T15-36-53_767-jvmRun1 surefire9842414432397333209tmp surefire_02419880330123428430tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Coba\Learn Java\learn-unit-test\target\test-classes;D:\Coba\Learn Java\learn-unit-test\target\classes;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\arbid\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\arbid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\arbid\AppData\Local\Temp\surefire3044953320946348836\surefirebooter15902155495038440200.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\arbid\AppData\Local\Temp\surefire13588991328710970590\surefirebooter17528593621912390541.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -58,11 +58,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testDivideFailed" classname="belajar.test.junit.test.CalculatorTest" time="0.085"/>
-  <testcase name="testAddSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.005"/>
+  <testcase name="testAborted" classname="belajar.test.junit.test.CalculatorTest" time="0">
+    <skipped type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException
+	at belajar.test.junit.test.CalculatorTest.testAborted(CalculatorTest.java:71)
+</skipped>
+    <system-out><![CDATA[Before all.
+Before unit test.
+After unit test
+]]></system-out>
+  </testcase>
+  <testcase name="testDivideFailed" classname="belajar.test.junit.test.CalculatorTest" time="0.014"/>
+  <testcase name="testAddSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.011"/>
   <testcase name="testComingSoon" classname="belajar.test.junit.test.CalculatorTest" time="0">
     <skipped message="public void belajar.test.junit.test.CalculatorTest.testComingSoon() is @Disabled"/>
   </testcase>
-  <testcase name="testRemoveSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.006"/>
-  <testcase name="testDivideSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.003"/>
+  <testcase name="testRemoveSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.012"/>
+  <testcase name="testDivideSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0"/>
 </testsuite>
