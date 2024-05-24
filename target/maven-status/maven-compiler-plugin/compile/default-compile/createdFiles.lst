@@ -1,2 +1,5 @@
 belajar\test\junit\test\App.class
+belajar\test\junit\test\repository\PersonRepo.class
 belajar\test\junit\test\Calculator.class
+belajar\test\junit\test\service\PersonService.class
+belajar\test\junit\test\data\Person.class

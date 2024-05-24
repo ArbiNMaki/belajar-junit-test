@@ -9,5 +9,6 @@ belajar\test\junit\test\SampleIntegrationTest.class
 belajar\test\junit\test\AbstractCalculatorTest.class
 belajar\test\junit\test\resolver\RandomParameterResolver.class
 belajar\test\junit\test\QueueTest$WhenNew.class
+belajar\test\junit\test\service\PersonServiceTest.class
 belajar\test\junit\test\MockTest.class
 belajar\test\junit\test\QueueTest.class
