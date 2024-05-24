@@ -38,4 +38,34 @@ public class PersonServiceTest {
         Assertions.assertEquals("arbi", person.getId());
         Assertions.assertEquals("Arbi", person.getName());
     }
+
+    // Sebenarnya Salah(Tanpa Verifikasi)
+    @Test
+    public void testCreateSuccess() {
+        var person = personService.register("Arbi");
+        Assertions.assertNotNull(person);
+        Assertions.assertEquals("Arbi", person.getName());
+        Assertions.assertNotNull(person.getId());
+    }
+    /*
+        Kenapa Salah ?
+        - Coba hapus kode personRepo.insert(person), maka unit test nya pun tetap sukses.
+        - Hal ini terjadi karena, kita tidak melakukan verifikasi bahwa mocking object dipanggil.
+        - Hal ini sangat berbahaya, karena jika code sampai naik ke prod, bisa jadi orang yang register datanya tidak masuk ke DB.
+    */
+
+    // Dengan Verifikasi
+    @Test
+    public void testCreateSuccessWithVerify() {
+        var person = personService.register("Arbi");
+        Assertions.assertNotNull(person);
+        Assertions.assertEquals("Arbi", person.getName());
+        Assertions.assertNotNull(person.getId());
+
+        Mockito.verify(personRepo, Mockito.times(1))
+                .insert(new Person(person.getId(), person.getName()));
+    }
+    /*
+        - Coba hapus personRepo.insert(person), maka akan failed.
+    */
 }
