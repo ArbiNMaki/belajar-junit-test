@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.CalculatorTest" time="0.11" tests="7" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.RandomCalculatorTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,28 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testAssumption" classname="belajar.test.junit.test.CalculatorTest" time="0">
-    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at belajar.test.junit.test.CalculatorTest.testAssumption(CalculatorTest.java:78)
-</skipped>
-    <system-out><![CDATA[Before all.
-Before unit test.
-After unit test
-]]></system-out>
-  </testcase>
-  <testcase name="testAborted" classname="belajar.test.junit.test.CalculatorTest" time="0">
-    <skipped type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException
-	at belajar.test.junit.test.CalculatorTest.testAborted(CalculatorTest.java:72)
-</skipped>
-    <system-out><![CDATA[Before unit test.
-After unit test
-]]></system-out>
-  </testcase>
-  <testcase name="testDivideFailed" classname="belajar.test.junit.test.CalculatorTest" time="0"/>
-  <testcase name="testAddSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0.002"/>
-  <testcase name="testComingSoon" classname="belajar.test.junit.test.CalculatorTest" time="0">
-    <skipped message="public void belajar.test.junit.test.CalculatorTest.testComingSoon() is @Disabled"/>
-  </testcase>
-  <testcase name="testRemoveSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0"/>
-  <testcase name="testDivideSuccess" classname="belajar.test.junit.test.CalculatorTest" time="0"/>
+  <testcase name="testRandom{Random}" classname="belajar.test.junit.test.RandomCalculatorTest" time="0"/>
 </testsuite>

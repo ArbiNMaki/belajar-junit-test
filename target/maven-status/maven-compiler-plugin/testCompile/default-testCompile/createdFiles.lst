@@ -1,8 +1,10 @@
 belajar\test\junit\test\SampleIntegrationTest.class
 belajar\test\junit\test\LifecycleTest.class
+belajar\test\junit\test\resolver\RandomParameterResolver.class
 belajar\test\junit\test\QueueTest$WhenNew.class
 belajar\test\junit\test\ConditionTest.class
 belajar\test\junit\test\InformationTest.class
 belajar\test\junit\test\CalculatorTest.class
 belajar\test\junit\test\OrderedTest.class
+belajar\test\junit\test\RandomCalculatorTest.class
 belajar\test\junit\test\QueueTest.class

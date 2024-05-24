@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: belajar.test.junit.test.ConditionTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.034 s - in belajar.test.junit.test.ConditionTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.025 s - in belajar.test.junit.test.ConditionTest
