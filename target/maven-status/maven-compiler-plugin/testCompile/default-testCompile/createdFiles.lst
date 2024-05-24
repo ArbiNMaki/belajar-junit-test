@@ -1,4 +1,5 @@
 belajar\test\junit\test\SampleIntegrationTest.class
+belajar\test\junit\test\AbstractCalculatorTest.class
 belajar\test\junit\test\LifecycleTest.class
 belajar\test\junit\test\resolver\RandomParameterResolver.class
 belajar\test\junit\test\QueueTest$WhenNew.class
