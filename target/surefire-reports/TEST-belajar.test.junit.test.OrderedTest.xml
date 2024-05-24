@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.OrderedTest" time="0.01" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="belajar.test.junit.test.OrderedTest" time="0.219" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Coba\Learn Java\learn-unit-test\target\test-classes;D:\Coba\Learn Java\learn-unit-test\target\classes;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\arbid\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\arbid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.class.path" value="D:\Coba\Learn Java\learn-unit-test\target\test-classes;D:\Coba\Learn Java\learn-unit-test\target\classes;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\arbid\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\arbid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\arbid\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;C:\Users\arbid\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\arbid\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\arbid\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\arbid\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\arbid\AppData\Local\Temp\surefire16867292268520347703\surefirebooter10632716738681195425.jar C:\Users\arbid\AppData\Local\Temp\surefire16867292268520347703 2024-05-24T11-06-38_712-jvmRun1 surefire5084015960411844492tmp surefire_01354483442630517606tmp"/>
+    <property name="sun.java.command" value="C:\Users\arbid\AppData\Local\Temp\surefire16704200671070747004\surefirebooter5957990974464542411.jar C:\Users\arbid\AppData\Local\Temp\surefire16704200671070747004 2024-05-24T16-36-21_560-jvmRun1 surefire14077596166696428785tmp surefire_01928201601695808740tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Coba\Learn Java\learn-unit-test\target\test-classes;D:\Coba\Learn Java\learn-unit-test\target\classes;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\arbid\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\arbid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Coba\Learn Java\learn-unit-test\target\test-classes;D:\Coba\Learn Java\learn-unit-test\target\classes;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\arbid\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\arbid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\arbid\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\arbid\.m2\repository\org\mockito\mockito-junit-jupiter\5.12.0\mockito-junit-jupiter-5.12.0.jar;C:\Users\arbid\.m2\repository\org\mockito\mockito-core\5.12.0\mockito-core-5.12.0.jar;C:\Users\arbid\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\arbid\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.15\byte-buddy-agent-1.14.15.jar;C:\Users\arbid\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\arbid"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\arbid\AppData\Local\Temp\surefire16867292268520347703\surefirebooter10632716738681195425.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\arbid\AppData\Local\Temp\surefire16704200671070747004\surefirebooter5957990974464542411.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="test1" classname="belajar.test.junit.test.OrderedTest" time="0"/>
+  <testcase name="test1" classname="belajar.test.junit.test.OrderedTest" time="0.038"/>
   <testcase name="test2" classname="belajar.test.junit.test.OrderedTest" time="0"/>
-  <testcase name="test3" classname="belajar.test.junit.test.OrderedTest" time="0.01"/>
+  <testcase name="test3" classname="belajar.test.junit.test.OrderedTest" time="0.048"/>
 </testsuite>

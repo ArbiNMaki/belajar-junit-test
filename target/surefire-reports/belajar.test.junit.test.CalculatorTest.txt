@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: belajar.test.junit.test.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.18 s - in belajar.test.junit.test.CalculatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.106 s - in belajar.test.junit.test.CalculatorTest
